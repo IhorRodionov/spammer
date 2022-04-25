@@ -3,10 +3,10 @@ import asyncio
 import os
 import mysql.connector as con
 
-server = '185.233.38.219'
-database = 'bulbulator'
-username = 'spadmin'
-password = 'admin123'
+server = 'server'
+database = ''
+username = ''
+password = ''
 connection = con.connect(host=server,
                          database=database,
                          user=username,
